@@ -39,3 +39,12 @@ Kérj be három számot, és írd ki melyik a legnagyobb.
 #     else:
 #         print(f"A harmadik szám a {szam3} a legnagyobb")
 
+#--------------------------------------------------------------
+
+"""
+Kérj be egy N értéket, majd írd ki 1-től N-ig a számokat egy ciklussal.
+"""
+
+# N = int(input("Kérlek adj meg egy számot: "))
+# for i in range(1,N+1):
+#     print(i)
