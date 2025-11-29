@@ -48,3 +48,18 @@ Kérj be egy N értéket, majd írd ki 1-től N-ig a számokat egy ciklussal.
 # N = int(input("Kérlek adj meg egy számot: "))
 # for i in range(1,N+1):
 #     print(i)
+
+#--------------------------------------------------------------
+
+"""
+Kérj be egy N számot, majd számold ki a 1..N közötti számok összegét.
+"""
+
+N = int(input("Kérlek adj meg egy számot: "))
+szam = 1
+osszeg = 0
+while szam <= N:
+    osszeg = osszeg + szam
+    szam += 1
+
+print(osszeg) 
