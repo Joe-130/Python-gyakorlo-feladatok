@@ -70,12 +70,27 @@ Kérj be egy N számot, majd számold ki a 1..N közötti számok összegét.
 Kérj be 5 darab számot, tedd őket listába, majd számold ki az átlagukat.
 """
 
-szamlista =[]
-for i in range(5):
-    szamok = int(input("Kérlek adj meg egy számot: "))
-    szamlista.append(szamok)
-print(szamlista)
-osszeg = 0
-for db in szamlista:
-    osszeg = osszeg + db
-print(osszeg / len(szamlista))
+# szamlista =[]
+# for i in range(5):
+#     szamok = int(input("Kérlek adj meg egy számot: "))
+#     szamlista.append(szamok)
+# print(szamlista)
+# osszeg = 0
+# for db in szamlista:
+#     osszeg = osszeg + db
+# print(osszeg / len(szamlista))
+
+#--------------------------------------------------------------
+
+"""
+Adj meg egy listát tetszőleges egész számokkal, majd írd ki:
+a legnagyobb értéket
+a legkisebb értéket
+"""
+
+szamlista =[25,32,105,147,23,14,35]
+print(f"A lista legkisebb eleme a {min(szamlista)}")
+print(f"A lista legnagyobb eleme a {max(szamlista)}")
+
+
+
