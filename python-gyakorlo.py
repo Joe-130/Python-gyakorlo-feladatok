@@ -92,16 +92,23 @@ a legkisebb értéket
 # print(f"A lista legkisebb eleme a {min(szamlista)}")
 # print(f"A lista legnagyobb eleme a {max(szamlista)}")
 
+# szamlista =[25,32,105,147,23,14,35]
+# ha_legnagyobb = szamlista[0]
+
+# for szam in szamlista:
+#     if szam > ha_legnagyobb:
+#         ha_legnagyobb = szam
+
+# print(f"A lista legnagyobb eleme: {ha_legnagyobb}")
+
 szamlista =[25,32,105,147,23,14,35]
-ha_legnagyobb = szamlista[0]
+legkisebb =szamlista[0]
 
 for szam in szamlista:
-    if szam > ha_legnagyobb:
-        ha_legnagyobb = szam
+    if szam < legkisebb:
+        legkisebb = szam
 
-print(f"A lista legnagyobb eleme: {ha_legnagyobb}")
-
-
+print(f"A lista legkisebb eleme: {legkisebb}")
 
 #--------------------------------------------------------------
 
