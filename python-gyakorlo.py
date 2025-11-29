@@ -55,11 +55,27 @@ Kérj be egy N értéket, majd írd ki 1-től N-ig a számokat egy ciklussal.
 Kérj be egy N számot, majd számold ki a 1..N közötti számok összegét.
 """
 
-N = int(input("Kérlek adj meg egy számot: "))
-szam = 1
-osszeg = 0
-while szam <= N:
-    osszeg = osszeg + szam
-    szam += 1
+# N = int(input("Kérlek adj meg egy számot: "))
+# szam = 1
+# osszeg = 0
+# while szam <= N:
+#     osszeg = osszeg + szam
+#     szam += 1
 
-print(osszeg) 
+# print(osszeg) 
+
+#--------------------------------------------------------------
+
+"""
+Kérj be 5 darab számot, tedd őket listába, majd számold ki az átlagukat.
+"""
+
+szamlista =[]
+for i in range(5):
+    szamok = int(input("Kérlek adj meg egy számot: "))
+    szamlista.append(szamok)
+print(szamlista)
+osszeg = 0
+for db in szamlista:
+    osszeg = osszeg + db
+print(osszeg / len(szamlista))
