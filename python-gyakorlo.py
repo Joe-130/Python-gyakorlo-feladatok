@@ -92,6 +92,17 @@ a legkisebb értéket
 # print(f"A lista legkisebb eleme a {min(szamlista)}")
 # print(f"A lista legnagyobb eleme a {max(szamlista)}")
 
+szamlista =[25,32,105,147,23,14,35]
+ha_legnagyobb = szamlista[0]
+
+for szam in szamlista:
+    if szam > ha_legnagyobb:
+        ha_legnagyobb = szam
+
+print(f"A lista legnagyobb eleme: {ha_legnagyobb}")
+
+
+
 #--------------------------------------------------------------
 
 """
@@ -112,12 +123,12 @@ Kérj be egy számot és döntsd el, hogy benne van-e az előre adott listában.
 Adott egy lista számokkal. Készíts új listát, amelyben csak a páros számok szerepelnek.
 """
 
-szamlista =[25,32,105,147,23,14,35]
-parosLista = []
+# szamlista =[25,32,105,147,23,14,35]
+# parosLista = []
 
-for szam in szamlista:
-    if szam % 2 == 0:
-        parosLista.append(szam)
-print(parosLista)
+# for szam in szamlista:
+#     if szam % 2 == 0:
+#         parosLista.append(szam)
+# print(parosLista)
 
   
