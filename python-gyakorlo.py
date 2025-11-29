@@ -88,9 +88,23 @@ a legnagyobb értéket
 a legkisebb értéket
 """
 
+# szamlista =[25,32,105,147,23,14,35]
+# print(f"A lista legkisebb eleme a {min(szamlista)}")
+# print(f"A lista legnagyobb eleme a {max(szamlista)}")
+
+#--------------------------------------------------------------
+
+"""
+Kérj be egy számot és döntsd el, hogy benne van-e az előre adott listában.
+"""
+
 szamlista =[25,32,105,147,23,14,35]
-print(f"A lista legkisebb eleme a {min(szamlista)}")
-print(f"A lista legnagyobb eleme a {max(szamlista)}")
+megadottSzam = int(input("Kérlek adj meg egy számot: "))
+
+if megadottSzam in szamlista:
+    print("A szám megtalálható a listában")
+else:
+    print("A szám nincs benne a listában")
 
 
 
