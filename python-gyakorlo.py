@@ -98,13 +98,26 @@ a legkisebb értéket
 Kérj be egy számot és döntsd el, hogy benne van-e az előre adott listában.
 """
 
+# szamlista =[25,32,105,147,23,14,35]
+# megadottSzam = int(input("Kérlek adj meg egy számot: "))
+
+# if megadottSzam in szamlista:
+#     print("A szám megtalálható a listában")
+# else:
+#     print("A szám nincs benne a listában")
+
+#--------------------------------------------------------------
+
+"""
+Adott egy lista számokkal. Készíts új listát, amelyben csak a páros számok szerepelnek.
+"""
+
 szamlista =[25,32,105,147,23,14,35]
-megadottSzam = int(input("Kérlek adj meg egy számot: "))
+parosLista = []
 
-if megadottSzam in szamlista:
-    print("A szám megtalálható a listában")
-else:
-    print("A szám nincs benne a listában")
+for szam in szamlista:
+    if szam % 2 == 0:
+        parosLista.append(szam)
+print(parosLista)
 
-
-
+  
